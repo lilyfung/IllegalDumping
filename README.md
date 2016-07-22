@@ -1,6 +1,8 @@
 # IllegalDumping
 Illegal Dumping Model, Logistic Regression
+
 a. Overview
+
 i. Description - Why does the project exist?
 CUSP is collaborating with the Office of the Attorney General of New York State (OAG), 
 using various New York City data sources and analytic modelling techniques to identify 
@@ -15,6 +17,8 @@ dumping locations within New York City.  CUSP was also able to highlight and doc
 limitations of data available for use in future research as we tried to model the entire illegal
 dumping process and link the source(s) of construction waste with the act(s) of illegal dumping. 
 
+
+Code File: Final_Model.ipynb
 ii. Purpose - What is the code for?
 This code include a logistic regression model which make a prediction over the past locations 
 where illegal dumping happened based on specific characteristics.
@@ -46,3 +50,34 @@ This notebook runs with the file provided in this folder.
 i. At a high level, how does a project run from start to finish?
 d. Installation/Configuration (if applicable)
 i. Include any programs, software, or code needed to install and run code
+
+
+Code File: Illegal_Construction_Model.ipynb
+ii. Purpose - What is the code for?
+This code fits a logistic regression over a dataset of locations which are indicated as confirmed square areas where illegal construction occured over the period January to June 2015 to predict the likelihood of illegal construction given number of 311 complaints, DOB violations, and total ECB summons.
+
+iii. Components
+Notebook with logistic Regression Model.
+Data for running the model.
+
+iv. System or software requirements.
+The neccesary imports are specified inside the notebook.
+
+v. Version
+Python 2.7
+
+b. Files
+For running this notebook the file to use is named :
+Illegal_Construction_Dataset.csv
+
+i. List of all files / derived datasets, including: filename; file format; classification
+(confidentiality); created date; last updated; update frequency; and version.
+Illegal_Construction_Dataset.csv
+format: csv
+Green data Set
+Created date July 22, 2016.
+Last updated July 22, 2016.
+update frequency: For running this model, the attributes were taken from January to June 2015. 
+
+c. Running the Code
+All the code necessary for running the predictive model are contained within the notebook. Simply run through each of the cells of code snippets.
